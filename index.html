@@ -1,0 +1,575 @@
+<!DOCTYPE html>
+
+<html lang="hi"><head><meta charset="utf-8"/><meta content="width=device-width, initial-scale=1.0" name="viewport"/><meta content="web_standard" name="shell-type"/><link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" rel="stylesheet"/><link href="https://fonts.googleapis.com" rel="preconnect"/><link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/><link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&amp;family=Plus+Jakarta+Sans:wght@600;700&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/><style>@layer base{html,body{margin:0;padding:0;}body{overscroll-behavior:none;}main>:first-child{margin-top:0!important;}main>:last-child{margin-bottom:0!important;}}::-webkit-scrollbar{display:none;}</style><script src="https://cdn.tailwindcss.com"></script><script id="tailwind-config">tailwind.config = { darkMode: "class", theme: { extend: { "colors": { "on-secondary": "#ffffff", "inverse-surface": "#213145", "on-tertiary": "#ffffff", "on-tertiary-container": "#3197dc", "secondary-fixed": "#89f5e7", "surface-dim": "#cbdbf5", "secondary": "#006a61", "tertiary": "#001727", "surface-container-low": "#eff4ff", "tertiary-fixed-dim": "#93ccff", "surface-container-lowest": "#ffffff", "on-background": "#0b1c30", "surface-container": "#e5eeff", "surface-variant": "#d3e4fe", "on-surface": "#0b1c30", "surface-bright": "#f8f9ff", "on-primary": "#ffffff", "tertiary-fixed": "#cce5ff", "on-surface-variant": "#43474d", "on-primary-fixed": "#001c37", "on-secondary-container": "#006f66", "on-tertiary-fixed-variant": "#004b73", "surface-container-high": "#dce9ff", "on-tertiary-fixed": "#001d31", "primary-fixed": "#d2e4ff", "on-primary-fixed-variant": "#2f4867", "tertiary-container": "#002c47", "on-secondary-fixed-variant": "#005049", "background": "#f8f9ff", "primary-container": "#0f2b48", "surface-container-highest": "#d3e4fe", "primary-fixed-dim": "#afc8ed", "inverse-on-surface": "#eaf1ff", "secondary-container": "#86f2e4", "surface-tint": "#476080", "on-secondary-fixed": "#00201d", "primary": "#00162d", "secondary-fixed-dim": "#6bd8cb", "on-error": "#ffffff", "error-container": "#ffdad6", "on-primary-container": "#7a93b5", "on-error-container": "#93000a", "surface": "#f8f9ff", "outline-variant": "#c4c6ce", "outline": "#74777e", "error": "#ba1a1a", "inverse-primary": "#afc8ed" }, "borderRadius": { "DEFAULT": "0.25rem", "lg": "0.5rem", "xl": "0.75rem", "full": "9999px" }, "spacing": { "space-xl": "2rem", "gutter-sm": "1rem", "margin": "1.5rem", "margin-lg": "3rem", "space-md": "1rem", "gutter-lg": "2rem", "space-sm": "0.5rem", "space-xs": "0.25rem", "space-lg": "1.5rem", "margin-sm": "1rem", "gutter": "1.5rem" }, "fontFamily": { "headline-xl-mobile": [ "Plus Jakarta Sans" ], "body-sm": [ "Inter" ], "label-md": [ "Inter" ], "display-lg": [ "Plus Jakarta Sans" ], "headline-lg": [ "Plus Jakarta Sans" ], "label-sm": [ "Inter" ], "headline-sm": [ "Plus Jakarta Sans" ], "body-lg": [ "Inter" ], "body-md": [ "Inter" ], "headline-xl": [ "Plus Jakarta Sans" ], "display-lg-mobile": [ "Plus Jakarta Sans" ], "headline-md": [ "Plus Jakarta Sans" ], "label-lg": [ "Inter" ] }, "fontSize": { "headline-xl-mobile": [ "28px", { "lineHeight": "36px", "letterSpacing": "-0.01em", "fontWeight": "600" } ], "body-sm": [ "14px", { "lineHeight": "20px", "fontWeight": "400" } ], "label-md": [ "12px", { "lineHeight": "16px", "letterSpacing": "0.02em", "fontWeight": "500" } ], "display-lg": [ "48px", { "lineHeight": "56px", "letterSpacing": "-0.02em", "fontWeight": "700" } ], "headline-lg": [ "28px", { "lineHeight": "36px", "fontWeight": "600" } ], "label-sm": [ "11px", { "lineHeight": "14px", "letterSpacing": "0.04em", "fontWeight": "600" } ], "headline-sm": [ "18px", { "lineHeight": "26px", "fontWeight": "600" } ], "body-lg": [ "18px", { "lineHeight": "28px", "fontWeight": "400" } ], "body-md": [ "16px", { "lineHeight": "24px", "fontWeight": "400" } ], "headline-xl": [ "36px", { "lineHeight": "44px", "letterSpacing": "-0.015em", "fontWeight": "600" } ], "display-lg-mobile": [ "34px", { "lineHeight": "42px", "letterSpacing": "-0.015em", "fontWeight": "700" } ], "headline-md": [ "22px", { "lineHeight": "30px", "fontWeight": "600" } ], "label-lg": [ "14px", { "lineHeight": "20px", "letterSpacing": "0.01em", "fontWeight": "600" } ] } } } };</script></head><body class="bg-surface font-body-md text-on-surface antialiased"><header class="fixed top-0 left-0 right-0 z-50 bg-surface-container-lowest/95 backdrop-blur-md shadow-[0_1px_8px_rgba(15,43,72,0.06)]"><div class="bg-primary text-on-primary py-1 px-gutter-lg"><div class="max-w-[1280px] mx-auto flex flex-wrap items-center justify-between text-label-sm font-label-sm"><div class="flex items-center gap-space-lg flex-wrap"><div class="flex items-center gap-space-xs text-error-container"><span class="material-symbols-outlined text-[16px]">emergency</span><span class="font-label-lg">24/7 आपातकालीन (Emergency Hotline): 1800-200-5555</span></div><div class="flex items-center gap-space-xs text-secondary-fixed"><span class="material-symbols-outlined text-[16px]">ambulance</span><span>एम्बुलेंस: 108</span></div><div class="hidden md:flex items-center gap-space-xs text-primary-fixed-dim"><span class="material-symbols-outlined text-[16px]">location_on</span><span>स्थान: मुख्य परिसर, फरीदाबाद-दिल्ली NCR</span></div></div><div class="flex items-center gap-space-md"><div class="hidden lg:flex items-center gap-space-xs text-primary-fixed-dim"><span class="material-symbols-outlined text-[16px]">schedule</span><span>OPD समय: 8:00 AM - 8:00 PM</span></div><div class="h-3 w-[1px] bg-primary-fixed-dim/30 hidden lg:block"></div><button class="flex items-center gap-space-xs text-on-primary hover:text-secondary-fixed transition-colors"><span class="material-symbols-outlined text-[15px]">translate</span><span>हिंदी / English</span></button></div></div></div><div class="h-20 max-w-[1280px] mx-auto px-gutter-lg flex items-center justify-between"><div class="flex items-center gap-space-md"><img alt="Amrita Hospital Logo" class="h-8 w-auto object-contain" src="https://lh3.googleusercontent.com/aida-public/AB6AXuD2w2wSG84bWFEgyus7JN3sRAGMZZbypF7EMToB-PnBPBZWeBqiGuUnfOfxE2j2LK5g_LAR_OlhtpnJmxvrKI2cSW2I63upL5PqQEPG0PosbZ3X0Kf9aiNj4PXTT1PHtKaoHiJz1Y74VHcMqliJjlhXaWm0BuHX6yjfWh0I_0vUtq1VwyNuVdRfBcOo7QQbm8VwBCzQwphmeuW9ouuJRDgB-QPVJfR-Yc6zRJd0EoG0iwqASjaWI6r2"/><div class="flex flex-col"><span class="font-headline-sm text-headline-sm text-primary leading-tight font-bold tracking-tight">अमृता हॉस्पिटल</span><span class="font-label-sm text-label-sm text-on-surface-variant tracking-wider uppercase">Amrita Hospital &amp; Research Centre</span></div></div><nav class="hidden xl:flex items-center gap-space-sm" data-active-classes="bg-surface-container-high text-primary font-label-lg rounded-lg"><a class="px-space-md py-space-sm rounded-lg font-label-lg text-label-lg text-on-surface-variant hover:bg-surface-container hover:text-on-surface transition-all" data-path="home" href="#">होम</a><a aria-current="page" class="px-space-md py-space-sm transition-all bg-surface-container-high text-primary font-label-lg rounded-lg" data-path="departments-facilities" href="#">विभाग एवं सुविधाएं</a><a class="px-space-md py-space-sm rounded-lg font-label-lg text-label-lg text-on-surface-variant hover:bg-surface-container hover:text-on-surface transition-all" data-path="doctors-appointments" href="#">डॉक्टर्स एवं अपॉइंटमेंट</a><a class="px-space-md py-space-sm rounded-lg font-label-lg text-label-lg text-on-surface-variant hover:bg-surface-container hover:text-on-surface transition-all" data-path="patient-visitor-guide" href="#">मरीज एवं आगंतुक गाइड</a><a class="px-space-md py-space-sm rounded-lg font-label-lg text-label-lg text-on-surface-variant hover:bg-surface-container hover:text-on-surface transition-all" data-path="contact-emergency" href="#">संपर्क व आपातकाल</a></nav><div class="flex items-center gap-space-md"><a class="inline-flex items-center gap-space-xs bg-secondary text-on-secondary hover:bg-on-secondary-container px-space-md py-space-sm rounded-lg font-label-lg text-label-lg shadow-sm transition-all" data-path="book-appointment" href="#"><span class="material-symbols-outlined text-[18px]">calendar_month</span><span>अपॉइंटमेंट बुक करें</span></a><div class="flex items-center gap-space-sm pl-space-sm"><img alt="Profile" class="w-8 h-8 rounded-full object-cover" src="https://lh3.googleusercontent.com/aida-public/AB6AXuDsX5s3eZ25Ozb3Zk4WdphbKyi05sHw0cuyy7EKNQN8207M6VHz9SBKu2mXVFhC0F-uEkabX0NEw4qGyhcCE7FaR9Z1upim2t_fJKm7LCzIjEVIwdmn_xLpxca3sg7DsyzByCxAq6cYXZaa8LRmNCYVH50IAvBDxXXxYECZATBmWU_sbxviUTXCujf7_xQ0rDKntC4ncOYHZlEftvXht1-d_HB-kOnkBhF4q0h6F5tgnAAha-CB1VXB"/><div class="hidden md:flex flex-col text-left"><span class="font-label-sm text-label-sm text-on-surface font-semibold">डॉक्टर पोर्टल</span><span class="font-label-sm text-[10px] text-on-surface-variant leading-none">हेल्पलाइन लॉगिन</span></div></div></div></div></header><main class="w-full pt-[116px] bg-surface min-h-[calc(100vh-116px)]"><div class="flex flex-col w-full">
+<!-- Top Hero Introduction Header -->
+<section class="relative w-full bg-gradient-to-b from-surface-container to-surface overflow-hidden py-space-xl md:py-margin-lg">
+<div class="absolute -right-24 -top-24 w-96 h-96 rounded-full bg-secondary-container/20 blur-3xl pointer-events-none"></div>
+<div class="absolute -left-20 bottom-0 w-80 h-80 rounded-full bg-primary-fixed-dim/25 blur-3xl pointer-events-none"></div>
+<div class="max-w-[1280px] mx-auto px-gutter-lg relative z-10">
+<div class="flex flex-col lg:flex-row items-start lg:items-end justify-between gap-space-lg mb-space-lg">
+<div class="max-w-3xl flex flex-col gap-space-xs">
+<div class="inline-flex items-center gap-space-xs bg-surface-container-lowest px-space-md py-space-xs rounded-full shadow-sm w-fit text-secondary">
+<span class="material-symbols-outlined text-[18px]">verified</span>
+<span class="font-label-md text-label-md font-semibold tracking-wide uppercase">विश्वस्तरीय सुपर-स्पेशियलिटी केंद्र • JCI एवं NABH मान्यता प्राप्त</span>
+</div>
+<h1 class="font-headline-xl text-headline-xl md:text-[40px] md:leading-[48px] text-primary tracking-tight font-bold mt-space-xs">
+            अत्याधुनिक चिकित्सा व्यवस्था और सुपर स्पेशलिटी विभाग
+          </h1>
+<p class="font-body-lg text-body-lg text-on-surface-variant max-w-2xl mt-space-xs">
+            मरीजों के त्वरित और सटीक उपचार के लिए विश्वस्तरीय मेडिकल इंफ्रास्ट्रक्चर, तकनीकी नवाचार और प्रतिष्ठित विशेषज्ञों की समर्पित टीम।
+          </p>
+</div>
+<div class="flex flex-wrap items-center gap-space-sm w-full lg:w-auto">
+<a class="inline-flex items-center justify-center gap-space-xs bg-primary text-on-primary hover:bg-primary-container px-space-lg py-space-sm rounded-lg font-label-lg text-label-lg shadow-sm transition-all min-h-[48px]" href="#departments">
+<span class="material-symbols-outlined text-[20px]">view_cozy</span>
+<span>प्रमुख विभाग देखें</span>
+</a>
+<a class="inline-flex items-center justify-center gap-space-xs bg-surface-container-lowest text-primary hover:bg-surface-container-high px-space-lg py-space-sm rounded-lg font-label-lg text-label-lg shadow-sm transition-all min-h-[48px]" href="#facilities">
+<span class="material-symbols-outlined text-[20px]">apartment</span>
+<span>अस्पताल की सुविधाएं</span>
+</a>
+</div>
+</div>
+<!-- Quick Stats Strip -->
+<div class="grid grid-cols-2 md:grid-cols-4 gap-space-md mt-space-lg">
+<div class="bg-surface-container-lowest p-space-md rounded-xl shadow-sm flex flex-col justify-between">
+<div class="flex items-center justify-between text-secondary mb-space-xs">
+<span class="material-symbols-outlined text-[24px]">local_hospital</span>
+<span class="font-label-sm text-label-sm bg-secondary-fixed/40 text-on-secondary-fixed-variant px-2 py-0.5 rounded-full font-bold">2600+ बेड</span>
+</div>
+<div>
+<div class="font-headline-lg text-headline-lg text-primary font-bold">64+</div>
+<div class="font-body-sm text-body-sm text-on-surface-variant">सुपर स्पेशलिटी क्लिनिक व विभाग</div>
+</div>
+</div>
+<div class="bg-surface-container-lowest p-space-md rounded-xl shadow-sm flex flex-col justify-between">
+<div class="flex items-center justify-between text-secondary mb-space-xs">
+<span class="material-symbols-outlined text-[24px]">monitor_heart</span>
+<span class="font-label-sm text-label-sm bg-surface-container text-primary font-bold px-2 py-0.5 rounded-full">24x7 मॉनिटरिंग</span>
+</div>
+<div>
+<div class="font-headline-lg text-headline-lg text-primary font-bold">534</div>
+<div class="font-body-sm text-body-sm text-on-surface-variant">गहन चिकित्सा (ICU/CCU) बेड</div>
+</div>
+</div>
+<div class="bg-surface-container-lowest p-space-md rounded-xl shadow-sm flex flex-col justify-between">
+<div class="flex items-center justify-between text-secondary mb-space-xs">
+<span class="material-symbols-outlined text-[24px]">precision_manufacturing</span>
+<span class="font-label-sm text-label-sm bg-secondary-fixed/40 text-on-secondary-fixed-variant px-2 py-0.5 rounded-full font-bold">AI गाइडेड</span>
+</div>
+<div>
+<div class="font-headline-lg text-headline-lg text-primary font-bold">64</div>
+<div class="font-body-sm text-body-sm text-on-surface-variant">मॉड्यूलर ऑपरेशन थिएटर</div>
+</div>
+</div>
+<div class="bg-surface-container-lowest p-space-md rounded-xl shadow-sm flex flex-col justify-between">
+<div class="flex items-center justify-between text-error mb-space-xs">
+<span class="material-symbols-outlined text-[24px]">e911_emergency</span>
+<span class="font-label-sm text-label-sm bg-error-container text-on-error-container px-2 py-0.5 rounded-full font-bold">शून्य विलंब</span>
+</div>
+<div>
+<div class="font-headline-lg text-headline-lg text-primary font-bold">Level 1</div>
+<div class="font-body-sm text-body-sm text-on-surface-variant">इमरजेंसी ट्रॉमा सेंटर</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- Interactive Department Filter Tabs -->
+<section class="max-w-[1280px] w-full mx-auto px-gutter-lg pt-space-xl" id="departments">
+<div class="flex flex-col md:flex-row md:items-center justify-between gap-space-md pb-space-md">
+<div>
+<span class="font-label-md text-label-md text-secondary uppercase font-bold tracking-wider">सेक्योर और केंद्रित चिकित्सा</span>
+<h2 class="font-headline-xl text-headline-xl text-primary font-bold tracking-tight">सुपर स्पेशलिटी विभाग</h2>
+</div>
+<!-- Filter Chips Container -->
+<div class="flex items-center gap-space-xs overflow-x-auto pb-space-xs">
+<button class="dept-btn px-space-md py-space-xs rounded-full font-label-md text-label-md font-semibold bg-primary text-on-primary transition-all whitespace-nowrap" id="btn-all" onclick="filterDept('all')">
+          सभी विभाग (All)
+        </button>
+<button class="dept-btn px-space-md py-space-xs rounded-full font-label-md text-label-md font-semibold bg-surface-container text-on-surface-variant hover:bg-surface-container-high transition-all whitespace-nowrap" id="btn-surgical" onclick="filterDept('surgical')">
+          सर्जिकल व प्रत्यारोपण
+        </button>
+<button class="dept-btn px-space-md py-space-xs rounded-full font-label-md text-label-md font-semibold bg-surface-container text-on-surface-variant hover:bg-surface-container-high transition-all whitespace-nowrap" id="btn-critical" onclick="filterDept('critical')">
+          गंभीर एवं आपातकाल
+        </button>
+<button class="dept-btn px-space-md py-space-xs rounded-full font-label-md text-label-md font-semibold bg-surface-container text-on-surface-variant hover:bg-surface-container-high transition-all whitespace-nowrap" id="btn-mother-child" onclick="filterDept('mother-child')">
+          मातृ एवं शिशु
+        </button>
+</div>
+</div>
+<!-- Departments Grid -->
+<div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-gutter-lg mt-space-md" id="departments-container">
+<!-- 1. Cardiology -->
+<div class="dept-card group bg-surface-container-lowest rounded-xl shadow-sm hover:shadow-md transition-all flex flex-col justify-between overflow-hidden" data-category="surgical critical">
+<div class="relative h-48 w-full overflow-hidden bg-surface-container">
+<img class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" data-alt="High tech digital cardiac catheterization laboratory with doctors examining heart coronary angiography on multiple luminous displays, ultra clean clinical environment with deep navy and soft cyan tone lighting." src="https://lh3.googleusercontent.com/aida-public/AB6AXuAsv__qBt3kheK-I4u2ie-0b1TxcRlLDQGhvrIU1akhuB05kITZblIS4jC_dazFQRDQCyKFDLeBfcgIyDnpU01djsYbWc0GW4udBR5za_eSddyIU_aCdg8ko2_9ETwGEW2kdGKVOZK8V9H6YxXxGU7plDL_FDo3VQS68Nr4aOu2-OpcmejPc1VpBw6vrPMhjGIXlZnSGwL2RcfTVoUMlGKOX3CLbMvLUco0_yvn3u3tCvkUsHAiOwOL"/>
+<div class="absolute inset-0 bg-gradient-to-t from-primary/80 via-primary/20 to-transparent"></div>
+<div class="absolute top-space-sm left-space-sm">
+<span class="inline-flex items-center gap-1 bg-surface-container-lowest/90 backdrop-blur-sm text-primary text-label-sm font-label-sm px-space-sm py-1 rounded-md shadow-sm font-semibold">
+<span class="material-symbols-outlined text-[14px] text-error">favorite</span>
+              सेंटर ऑफ एक्सीलेंस
+            </span>
+</div>
+<div class="absolute bottom-space-sm left-space-md right-space-md">
+<h3 class="font-headline-md text-headline-md text-on-primary font-bold">हृदय रोग संस्थान</h3>
+<span class="font-label-sm text-label-sm text-secondary-fixed">Cardiology &amp; Cardiac Surgery</span>
+</div>
+</div>
+<div class="p-space-lg flex flex-col flex-grow justify-between gap-space-md">
+<div class="flex flex-col gap-space-sm">
+<p class="font-body-sm text-body-sm text-on-surface-variant leading-relaxed">
+              जटिल हृदय विकारों के लिए समर्पित आधुनिक डिजिटल कैथ लैब, ईसीजी, 2D इको, मिनिमली इनवेसिव हार्ट सर्जरी और 24 घंटे प्राइमरी एंजियोप्लास्टी।
+            </p>
+<div class="flex flex-wrap gap-space-xs pt-space-xs">
+<span class="bg-surface-container px-space-sm py-1 rounded text-label-sm font-label-sm text-primary font-medium">डिजिटल कैथ लैब</span>
+<span class="bg-surface-container px-space-sm py-1 rounded text-label-sm font-label-sm text-primary font-medium">ओपन हार्ट सर्जरी</span>
+<span class="bg-surface-container px-space-sm py-1 rounded text-label-sm font-label-sm text-primary font-medium">TAVI &amp; ECMO</span>
+</div>
+</div>
+<div class="pt-space-sm flex items-center justify-between">
+<div class="flex items-center gap-space-xs text-secondary font-label-sm">
+<span class="material-symbols-outlined text-[18px]">emergency</span>
+<span class="font-semibold">गोल्डन आवर रेस्क्यू</span>
+</div>
+<a class="inline-flex items-center gap-space-xs bg-surface-container-low hover:bg-secondary hover:text-on-secondary text-primary px-space-md py-space-xs rounded-lg font-label-md text-label-md font-semibold transition-all" href="#">
+<span>विभाग से संपर्क करें</span>
+<span class="material-symbols-outlined text-[16px]">chevron_right</span>
+</a>
+</div>
+</div>
+</div>
+<!-- 2. Oncology -->
+<div class="dept-card group bg-surface-container-lowest rounded-xl shadow-sm hover:shadow-md transition-all flex flex-col justify-between overflow-hidden" data-category="surgical">
+<div class="relative h-48 w-full overflow-hidden bg-surface-container">
+<img class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" data-alt="Advanced radiation oncology suite featuring modern linear accelerator cancer treatment machine, calming ambient mood lighting with soft warm white and restorative teal highlights." src="https://lh3.googleusercontent.com/aida-public/AB6AXuAkTE3-nCzrvU5iEPYUfIZy7g3r8TfN7lP4K7-FfYIJ70AE4JHArsFHXP35L6N1q__77QHw8qeFEIo-slKU642Z6vVQvMDTByj9cKi_di_mTXoov0ckdWgQ_i0RuuUDo2X2YBVE6lqLcjr7kh0kwGCDgdABpqqz8WVw85Ix8hksne_1i6NboQac0s8azHFPsxK5ZZ-XQF330w10z0XcPoD-xcWkxGCZ5YA8xCAY3tu-PvAflFx5HskU"/>
+<div class="absolute inset-0 bg-gradient-to-t from-primary/80 via-primary/20 to-transparent"></div>
+<div class="absolute top-space-sm left-space-sm">
+<span class="inline-flex items-center gap-1 bg-surface-container-lowest/90 backdrop-blur-sm text-primary text-label-sm font-label-sm px-space-sm py-1 rounded-md shadow-sm font-semibold">
+<span class="material-symbols-outlined text-[14px] text-secondary">verified_user</span>
+              मल्टी-डिसिप्लिनरी ट्यूमर बोर्ड
+            </span>
+</div>
+<div class="absolute bottom-space-sm left-space-md right-space-md">
+<h3 class="font-headline-md text-headline-md text-on-primary font-bold">कैंसर विज्ञान केंद्र</h3>
+<span class="font-label-sm text-label-sm text-secondary-fixed">Comprehensive Cancer Center</span>
+</div>
+</div>
+<div class="p-space-lg flex flex-col flex-grow justify-between gap-space-md">
+<div class="flex flex-col gap-space-sm">
+<p class="font-body-sm text-body-sm text-on-surface-variant leading-relaxed">
+              पेट-सीटी स्कैन, आधुनिक लीनियर एक्सीलरेटर द्वारा सटीक रेडिएशन, कीमोथेरेपी डे-केयर, प्रिसिजन इम्यूनोथेरेपी और जटिल ऑन्को-सर्जरी सुविधाएं।
+            </p>
+<div class="flex flex-wrap gap-space-xs pt-space-xs">
+<span class="bg-surface-container px-space-sm py-1 rounded text-label-sm font-label-sm text-primary font-medium">PET-CT इमेजिंग</span>
+<span class="bg-surface-container px-space-sm py-1 rounded text-label-sm font-label-sm text-primary font-medium">लीनियर एक्सीलरेटर</span>
+<span class="bg-surface-container px-space-sm py-1 rounded text-label-sm font-label-sm text-primary font-medium">बोन मैरो ट्रांसप्लांट</span>
+</div>
+</div>
+<div class="pt-space-sm flex items-center justify-between">
+<div class="flex items-center gap-space-xs text-secondary font-label-sm">
+<span class="material-symbols-outlined text-[18px]">biotech</span>
+<span class="font-semibold">जीनोमिक डायग्नोस्टिक्स</span>
+</div>
+<a class="inline-flex items-center gap-space-xs bg-surface-container-low hover:bg-secondary hover:text-on-secondary text-primary px-space-md py-space-xs rounded-lg font-label-md text-label-md font-semibold transition-all" href="#">
+<span>विभाग से संपर्क करें</span>
+<span class="material-symbols-outlined text-[16px]">chevron_right</span>
+</a>
+</div>
+</div>
+</div>
+<!-- 3. Neurosciences -->
+<div class="dept-card group bg-surface-container-lowest rounded-xl shadow-sm hover:shadow-md transition-all flex flex-col justify-between overflow-hidden" data-category="critical surgical">
+<div class="relative h-48 w-full overflow-hidden bg-surface-container">
+<img class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" data-alt="Modern neurosurgery operating theater with surgical microscope and robotic stereotactic navigation monitors, pristine medical environment with surgical blue-green tones." src="https://lh3.googleusercontent.com/aida-public/AB6AXuBGXlqzol4PMu0a9fbQ-9OsV8KN7msImlHU5QNClJvJlY58_vA2NQla-oGy7SKFcBc5C-gu32r9G0gNs2q0-5TkkxpS9phWFFgT-_PR7xW-VSWWOG1zs6T23X8r2IcjXH6H_MfmM1Ya282l7d5DRDDPeEYzPIF2El38LQes4shvpu5czp1oQE95nb3OhfgEv4CzWaMTjmDQXn8V6ZkR5reybafvmI9Yn-Y2PED-3gB6zjKYKe8uxJSI"/>
+<div class="absolute inset-0 bg-gradient-to-t from-primary/80 via-primary/20 to-transparent"></div>
+<div class="absolute top-space-sm left-space-sm">
+<span class="inline-flex items-center gap-1 bg-surface-container-lowest/90 backdrop-blur-sm text-primary text-label-sm font-label-sm px-space-sm py-1 rounded-md shadow-sm font-semibold">
+<span class="material-symbols-outlined text-[14px] text-tertiary-fixed-dim">neurology</span>
+              24x7 एक्यूट स्ट्रोक यूनिट
+            </span>
+</div>
+<div class="absolute bottom-space-sm left-space-md right-space-md">
+<h3 class="font-headline-md text-headline-md text-on-primary font-bold">मस्तिष्क एवं स्नायु रोग</h3>
+<span class="font-label-sm text-label-sm text-secondary-fixed">Neurology &amp; Neurosurgery</span>
+</div>
+</div>
+<div class="p-space-lg flex flex-col flex-grow justify-between gap-space-md">
+<div class="flex flex-col gap-space-sm">
+<p class="font-body-sm text-body-sm text-on-surface-variant leading-relaxed">
+              ब्रेन स्ट्रोक मैनेजमेंट, माइक्रो-न्यूरोसर्जरी, स्पाइन डीकंप्रेशन, मिर्गी (Epilepsy) निगरानी इकाई और उन्नत न्यूरो-रिहैबिलिटेशन केंद्र।
+            </p>
+<div class="flex flex-wrap gap-space-xs pt-space-xs">
+<span class="bg-surface-container px-space-sm py-1 rounded text-label-sm font-label-sm text-primary font-medium">माइक्रो-न्यूरोसर्जरी</span>
+<span class="bg-surface-container px-space-sm py-1 rounded text-label-sm font-label-sm text-primary font-medium">स्पाइन सेंटर</span>
+<span class="bg-surface-container px-space-sm py-1 rounded text-label-sm font-label-sm text-primary font-medium">न्यूरो आईसीयू</span>
+</div>
+</div>
+<div class="pt-space-sm flex items-center justify-between">
+<div class="flex items-center gap-space-xs text-secondary font-label-sm">
+<span class="material-symbols-outlined text-[18px]">psychology</span>
+<span class="font-semibold">न्यूरो-नेविगेशन सुइट</span>
+</div>
+<a class="inline-flex items-center gap-space-xs bg-surface-container-low hover:bg-secondary hover:text-on-secondary text-primary px-space-md py-space-xs rounded-lg font-label-md text-label-md font-semibold transition-all" href="#">
+<span>विभाग से संपर्क करें</span>
+<span class="material-symbols-outlined text-[16px]">chevron_right</span>
+</a>
+</div>
+</div>
+</div>
+<!-- 4. Orthopaedics -->
+<div class="dept-card group bg-surface-container-lowest rounded-xl shadow-sm hover:shadow-md transition-all flex flex-col justify-between overflow-hidden" data-category="surgical">
+<div class="relative h-48 w-full overflow-hidden bg-surface-container">
+<img class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" data-alt="Orthopedic robotic surgery robotic arm precision knee replacement surgical suite, clean hospital setting with doctors in sterile green scrubs and high definition screens." src="https://lh3.googleusercontent.com/aida-public/AB6AXuA7gNQu__XFk8Qe5JXXYIIdge4pjBHxhXdLbOqy515DyHjDUEnR8PjTirHqdPiW2Sdj9aHe5HXKVcl2BL-6t-uwENSZ5ERzWiuKFFm-WhdZftYfgvaoXsv6xzNfvpgpGp-eQ0jNqoW5S4As0df8w8TbWDjwtgr0ZSsZrViNRC2HcmtHRZbXN4ILQ-3wttWzlYSWu5zvKf0ZndEZ6SCKolOWvm059uqFhTUmS-vOnJWz_pChwpJxGMgw"/>
+<div class="absolute inset-0 bg-gradient-to-t from-primary/80 via-primary/20 to-transparent"></div>
+<div class="absolute top-space-sm left-space-sm">
+<span class="inline-flex items-center gap-1 bg-surface-container-lowest/90 backdrop-blur-sm text-primary text-label-sm font-label-sm px-space-sm py-1 rounded-md shadow-sm font-semibold">
+<span class="material-symbols-outlined text-[14px] text-secondary">smart_toy</span>
+              रोबोटिक नी रिप्लेसमेंट
+            </span>
+</div>
+<div class="absolute bottom-space-sm left-space-md right-space-md">
+<h3 class="font-headline-md text-headline-md text-on-primary font-bold">हड्डी एवं जोड़ रोग संस्थान</h3>
+<span class="font-label-sm text-label-sm text-secondary-fixed">Orthopaedics &amp; Joint Replacement</span>
+</div>
+</div>
+<div class="p-space-lg flex flex-col flex-grow justify-between gap-space-md">
+<div class="flex flex-col gap-space-sm">
+<p class="font-body-sm text-body-sm text-on-surface-variant leading-relaxed">
+              रोबोट-असिस्टेड घुटना व कूल्हा प्रत्यारोपण, की-होल आर्थ्रोस्कोपी, स्पोर्ट्स इंजरी केयर एवं न्यूनतम इनवेसिव कॉम्प्लेक्स फ्रैक्चर प्रबंधन।
+            </p>
+<div class="flex flex-wrap gap-space-xs pt-space-xs">
+<span class="bg-surface-container px-space-sm py-1 rounded text-label-sm font-label-sm text-primary font-medium">रोबोटिक जॉइंट सर्जरी</span>
+<span class="bg-surface-container px-space-sm py-1 rounded text-label-sm font-label-sm text-primary font-medium">आर्थ्रोस्कोपी</span>
+<span class="bg-surface-container px-space-sm py-1 rounded text-label-sm font-label-sm text-primary font-medium">स्पोर्ट्स मेडिसिन</span>
+</div>
+</div>
+<div class="pt-space-sm flex items-center justify-between">
+<div class="flex items-center gap-space-xs text-secondary font-label-sm">
+<span class="material-symbols-outlined text-[18px]">accessibility_new</span>
+<span class="font-semibold">फास्ट-ट्रैक मोबिलिटी</span>
+</div>
+<a class="inline-flex items-center gap-space-xs bg-surface-container-low hover:bg-secondary hover:text-on-secondary text-primary px-space-md py-space-xs rounded-lg font-label-md text-label-md font-semibold transition-all" href="#">
+<span>विभाग से संपर्क करें</span>
+<span class="material-symbols-outlined text-[16px]">chevron_right</span>
+</a>
+</div>
+</div>
+</div>
+<!-- 5. Gynecology & Obstetrics -->
+<div class="dept-card group bg-surface-container-lowest rounded-xl shadow-sm hover:shadow-md transition-all flex flex-col justify-between overflow-hidden" data-category="mother-child">
+<div class="relative h-48 w-full overflow-hidden bg-surface-container">
+<img class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" data-alt="Modern serene maternity birthing suite with modern neonatal monitoring equipment, warm gentle lighting, comfortable patient couch and aesthetic soft pastel interior." src="https://lh3.googleusercontent.com/aida-public/AB6AXuBYZQi7RcG18meMrnJL7QI17PiiGLI2kbkBtnwkajtlmwAG7p_qYYmPLYlhjj3BinBlAbm-z2q0Iu3pw3tuQIVP4rJO13mMpjGi48AYAxx77ZwBGIqlNVnRSRBt76BKCV7phxqy-o8pvQiMcjAzF4HJjazujy5figGEBzKBYMWBmK6HVYAmSlmHsTbNy7dRjlmpdx1xINDXncxKvf6av00cEF41MyLWSU-3OlI0WNyl0JPu52Pl4Yx2"/>
+<div class="absolute inset-0 bg-gradient-to-t from-primary/80 via-primary/20 to-transparent"></div>
+<div class="absolute top-space-sm left-space-sm">
+<span class="inline-flex items-center gap-1 bg-surface-container-lowest/90 backdrop-blur-sm text-primary text-label-sm font-label-sm px-space-sm py-1 rounded-md shadow-sm font-semibold">
+<span class="material-symbols-outlined text-[14px] text-secondary">child_friendly</span>
+              LDRP मैटरनिटी सुइट्स
+            </span>
+</div>
+<div class="absolute bottom-space-sm left-space-md right-space-md">
+<h3 class="font-headline-md text-headline-md text-on-primary font-bold">महिला एवं प्रसूति रोग</h3>
+<span class="font-label-sm text-label-sm text-secondary-fixed">Gynecology &amp; Obstetrics</span>
+</div>
+</div>
+<div class="p-space-lg flex flex-col flex-grow justify-between gap-space-md">
+<div class="flex flex-col gap-space-sm">
+<p class="font-body-sm text-body-sm text-on-surface-variant leading-relaxed">
+              हाई-रिस्क प्रेग्नेंसी मैनेजमेंट, प्राकृतिक व दर्द-रहित प्रसव, उन्नत लैप्रोस्कोपिक एवं हिस्टेरोस्कोपिक स्त्री रोग सर्जरी तथा भ्रूण चिकित्सा।
+            </p>
+<div class="flex flex-wrap gap-space-xs pt-space-xs">
+<span class="bg-surface-container px-space-sm py-1 rounded text-label-sm font-label-sm text-primary font-medium">हाई-रिस्क प्रेग्नेंसी</span>
+<span class="bg-surface-container px-space-sm py-1 rounded text-label-sm font-label-sm text-primary font-medium">लैप्रोस्कोपी</span>
+<span class="bg-surface-container px-space-sm py-1 rounded text-label-sm font-label-sm text-primary font-medium">भ्रूण मेडिसिन (Fetal)</span>
+</div>
+</div>
+<div class="pt-space-sm flex items-center justify-between">
+<div class="flex items-center gap-space-xs text-secondary font-label-sm">
+<span class="material-symbols-outlined text-[18px]">pregnant_woman</span>
+<span class="font-semibold">संपूर्ण मातृत्व सुरक्षा</span>
+</div>
+<a class="inline-flex items-center gap-space-xs bg-surface-container-low hover:bg-secondary hover:text-on-secondary text-primary px-space-md py-space-xs rounded-lg font-label-md text-label-md font-semibold transition-all" href="#">
+<span>विभाग से संपर्क करें</span>
+<span class="material-symbols-outlined text-[16px]">chevron_right</span>
+</a>
+</div>
+</div>
+</div>
+<!-- 6. Gastroenterology & Hepatology -->
+<div class="dept-card group bg-surface-container-lowest rounded-xl shadow-sm hover:shadow-md transition-all flex flex-col justify-between overflow-hidden" data-category="surgical critical">
+<div class="relative h-48 w-full overflow-hidden bg-surface-container">
+<img class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" data-alt="Advanced gastrointestinal endoscopy examination suite with high definition endoscopes, digital monitors and specialized medical nursing staff in sterile environment." src="https://lh3.googleusercontent.com/aida-public/AB6AXuBA7NjhlNbuCCL7EzB8ahxWdwLgFObFxul73tIaOiiWPyvY15t6W7OaqzZArh3Em5Q-gEEjmIXNrJjotHhI4nBEvuWNkYjrhTaIY602-IpCu5CGHmGUvi9V8tpw3TEtHjHsvwy9wZ4mejSUPaFX2e_-23KHD37ghuLN-63i_yrS5E6n12rozE-hyVbGFM9ZFJSwOo7VETL5r8YRwxLHnTE5uYzEKvgyh-HAUu6zoOkEH2WWeib_QmdC"/>
+<div class="absolute inset-0 bg-gradient-to-t from-primary/80 via-primary/20 to-transparent"></div>
+<div class="absolute top-space-sm left-space-sm">
+<span class="inline-flex items-center gap-1 bg-surface-container-lowest/90 backdrop-blur-sm text-primary text-label-sm font-label-sm px-space-sm py-1 rounded-md shadow-sm font-semibold">
+<span class="material-symbols-outlined text-[14px] text-secondary">healing</span>
+              समर्पित लिवर आईसीयू
+            </span>
+</div>
+<div class="absolute bottom-space-sm left-space-md right-space-md">
+<h3 class="font-headline-md text-headline-md text-on-primary font-bold">गैस्ट्रोएंटरोलॉजी एवं हेपेटोलॉजी</h3>
+<span class="font-label-sm text-label-sm text-secondary-fixed">Digestive Diseases &amp; Liver Center</span>
+</div>
+</div>
+<div class="p-space-lg flex flex-col flex-grow justify-between gap-space-md">
+<div class="flex flex-col gap-space-sm">
+<p class="font-body-sm text-body-sm text-on-surface-variant leading-relaxed">
+              उन्नत एंडोस्कोपी, कोलोनोस्कोपी, ERCP, फैटी लिवर व सिरोसिस का आधुनिक उपचार, एवं एकीकृत लिवर ट्रांसप्लांटेशन सेवा।
+            </p>
+<div class="flex flex-wrap gap-space-xs pt-space-xs">
+<span class="bg-surface-container px-space-sm py-1 rounded text-label-sm font-label-sm text-primary font-medium">एडवांस एंडोस्कोपी</span>
+<span class="bg-surface-container px-space-sm py-1 rounded text-label-sm font-label-sm text-primary font-medium">ERCP व EUS</span>
+<span class="bg-surface-container px-space-sm py-1 rounded text-label-sm font-label-sm text-primary font-medium">लिवर प्रत्यारोपण</span>
+</div>
+</div>
+<div class="pt-space-sm flex items-center justify-between">
+<div class="flex items-center gap-space-xs text-secondary font-label-sm">
+<span class="material-symbols-outlined text-[18px]">medical_services</span>
+<span class="font-semibold">GI इमरजेंसी रेडी</span>
+</div>
+<a class="inline-flex items-center gap-space-xs bg-surface-container-low hover:bg-secondary hover:text-on-secondary text-primary px-space-md py-space-xs rounded-lg font-label-md text-label-md font-semibold transition-all" href="#">
+<span>विभाग से संपर्क करें</span>
+<span class="material-symbols-outlined text-[16px]">chevron_right</span>
+</a>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- Interactive Facilities Showcase (Bento / High-Impact Layout) -->
+<section class="max-w-[1280px] w-full mx-auto px-gutter-lg py-margin-lg" id="facilities">
+<div class="flex flex-col md:flex-row md:items-end justify-between gap-space-md mb-space-lg">
+<div class="max-w-2xl">
+<span class="font-label-md text-label-md text-secondary uppercase font-bold tracking-wider">विश्वस्तरीय मेडिकल इंफ्रास्ट्रक्चर</span>
+<h2 class="font-headline-xl text-headline-xl text-primary font-bold tracking-tight mt-1">
+          हॉस्पिटल की अत्याधुनिक सुविधाएं
+        </h2>
+<p class="font-body-md text-body-md text-on-surface-variant mt-space-xs">
+          मरीज की सुरक्षा, संक्रमण-मुक्त स्वच्छता और अधिकतम सुविधा को प्राथमिकता देने वाला भारत का सबसे बड़ा और तकनीक-सम्पन्न परिसर।
+        </p>
+</div>
+<div class="flex items-center gap-space-sm">
+<div class="bg-surface-container-lowest px-space-md py-space-xs rounded-lg shadow-sm flex items-center gap-space-xs">
+<span class="w-3 h-3 rounded-full bg-secondary animate-pulse"></span>
+<span class="font-label-sm text-label-sm text-primary font-semibold">24 घंटे सभी सेवाएं सुचारू</span>
+</div>
+</div>
+</div>
+<!-- Facilities Grid Showcase -->
+<div class="grid grid-cols-1 md:grid-cols-3 lg:grid-cols-4 gap-gutter-lg">
+<!-- Facility 1: Modular OTs (Featured Large 2-column) -->
+<div class="md:col-span-2 lg:col-span-2 bg-surface-container-lowest rounded-xl shadow-sm p-space-lg flex flex-col justify-between relative overflow-hidden group">
+<div class="flex items-start justify-between z-10">
+<div>
+<span class="bg-secondary-fixed/50 text-on-secondary-fixed-variant px-space-sm py-1 rounded font-label-sm text-label-sm font-bold uppercase">
+              शून्य संक्रमण प्रणाली
+            </span>
+<h3 class="font-headline-lg text-headline-lg text-primary font-bold mt-space-xs">
+              एडवांस्ड मॉड्यूलर ऑपरेशन थिएटर
+            </h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant max-w-md mt-space-xs">
+              लैमिरल एयरफ्लो और HEPA फिल्टर तकनीक से लैस 64 मॉड्यूलर ओटी, जो बैक्टीरिया-रहित वातावरण और न्यूनतम संक्रमण दर सुनिश्चित करते हैं।
+            </p>
+</div>
+<div class="w-12 h-12 rounded-xl bg-surface-container flex items-center justify-center text-primary shrink-0">
+<span class="material-symbols-outlined text-[28px]">masks</span>
+</div>
+</div>
+<div class="mt-space-lg pt-space-md grid grid-cols-3 gap-space-sm z-10 bg-surface-container-lowest/80 backdrop-blur rounded-lg">
+<div>
+<div class="font-headline-sm text-headline-sm text-primary font-bold">64</div>
+<div class="font-label-sm text-label-sm text-on-surface-variant">डिजिटल ओटी सुइट्स</div>
+</div>
+<div>
+<div class="font-headline-sm text-headline-sm text-secondary font-bold">99.99%</div>
+<div class="font-label-sm text-label-sm text-on-surface-variant">HEPA वायु शुद्धता</div>
+</div>
+<div>
+<div class="font-headline-sm text-headline-sm text-primary font-bold">4K 3D</div>
+<div class="font-label-sm text-label-sm text-on-surface-variant">वीडियो इंटीग्रेशन</div>
+</div>
+</div>
+</div>
+<!-- Facility 2: 24/7 ICU & Critical Care -->
+<div class="bg-surface-container-lowest rounded-xl shadow-sm p-space-lg flex flex-col justify-between">
+<div>
+<div class="w-12 h-12 rounded-xl bg-error-container text-on-error-container flex items-center justify-center mb-space-md">
+<span class="material-symbols-outlined text-[28px]">vital_signs</span>
+</div>
+<span class="font-label-sm text-label-sm text-error font-bold uppercase">लाइफ सपोर्ट सिस्टम</span>
+<h3 class="font-headline-md text-headline-md text-primary font-bold mt-1">
+            24x7 गहन चिकित्सा इकाई (ICU)
+          </h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant mt-space-xs">
+            ICU, CCU, PICU और NICU में 534 समर्पित बेड, हाई-एंड वेंटिलेटर, डायलिसिस पोर्ट और 1:1 नर्सिंग अनुपात।
+          </p>
+</div>
+<div class="mt-space-md pt-space-xs">
+<div class="flex items-center gap-space-xs text-label-sm text-on-surface-variant">
+<span class="material-symbols-outlined text-[18px] text-secondary">check_circle</span>
+<span>सेंट्रल टेली-आईसीयू निगरानी</span>
+</div>
+</div>
+</div>
+<!-- Facility 3: Level 1 Emergency & Trauma -->
+<div class="bg-surface-container-lowest rounded-xl shadow-sm p-space-lg flex flex-col justify-between">
+<div>
+<div class="w-12 h-12 rounded-xl bg-surface-container flex items-center justify-center text-primary mb-space-md">
+<span class="material-symbols-outlined text-[28px]">ambulance</span>
+</div>
+<span class="font-label-sm text-label-sm text-secondary font-bold uppercase">त्वरित रिस्पॉन्स</span>
+<h3 class="font-headline-md text-headline-md text-primary font-bold mt-1">
+            आपातकालीन एवं ट्रॉमा सेंटर
+          </h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant mt-space-xs">
+            जीपीएस-सक्षम मोबाइल आईसीयू एम्बुलेंस, इन-बिल्ट ट्रायज एरिया और आपातकालीन क्रिटिकल रिससिटेशन बे।
+          </p>
+</div>
+<div class="mt-space-md pt-space-xs">
+<div class="flex items-center gap-space-xs text-label-sm text-on-surface-variant">
+<span class="material-symbols-outlined text-[18px] text-error">emergency</span>
+<span class="font-bold text-error">हेल्पलाइन: 1800-200-5555</span>
+</div>
+</div>
+</div>
+<!-- Facility 4: High-End Radiology & Pathology -->
+<div class="bg-surface-container-lowest rounded-xl shadow-sm p-space-lg flex flex-col justify-between">
+<div>
+<div class="w-12 h-12 rounded-xl bg-surface-container flex items-center justify-center text-primary mb-space-md">
+<span class="material-symbols-outlined text-[28px]">radiology</span>
+</div>
+<span class="font-label-sm text-label-sm text-secondary font-bold uppercase">डायग्नोस्टिक सटीकता</span>
+<h3 class="font-headline-md text-headline-md text-primary font-bold mt-1">
+            रेडियोलॉजी व पैथोलॉजी
+          </h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant mt-space-xs">
+            3T डिजिटल एमआरआई, 128 स्लाइस सीटी स्कैन, स्वचालित रोबोटिक ब्लड लैब व डिजिटल एक्स-रे की सुविधा।
+          </p>
+</div>
+<div class="mt-space-md pt-space-xs">
+<div class="flex items-center gap-space-xs text-label-sm text-on-surface-variant">
+<span class="material-symbols-outlined text-[18px] text-secondary">download</span>
+<span>ऑनलाइन रिपोर्ट 2 घंटे में उपलब्ध</span>
+</div>
+</div>
+</div>
+<!-- Facility 5: In-Patient Rooms & Suites -->
+<div class="md:col-span-2 lg:col-span-2 bg-surface-container-lowest rounded-xl shadow-sm p-space-lg flex flex-col justify-between">
+<div>
+<div class="flex items-center justify-between mb-space-sm">
+<span class="font-label-sm text-label-sm text-secondary font-bold uppercase">मरीज व तीमारदार आवास</span>
+<span class="bg-surface-container px-space-sm py-1 rounded text-label-sm font-label-sm text-primary">स्वच्छ, शांत व परिवार-अनुकूल</span>
+</div>
+<h3 class="font-headline-lg text-headline-lg text-primary font-bold">
+            इन-पेशेंट कमरे एवं सुइट्स (In-Patient Accommodation)
+          </h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant mt-space-xs max-w-xl">
+            अमृता में मरीजों के शीघ्र स्वास्थ्य लाभ के लिए प्राकृतिक प्रकाश, स्वच्छ हवा और शांत वातावरण वाले डीलक्स रूम, प्राइवेट प्रेसिडेंशियल सुइट, सेमी-प्राइवेट एवं जनरल वार्ड उपलब्ध हैं।
+          </p>
+</div>
+<div class="grid grid-cols-2 sm:grid-cols-4 gap-space-sm mt-space-md pt-space-sm">
+<div class="bg-surface-container-low p-space-sm rounded-lg text-center">
+<span class="font-headline-sm text-headline-sm text-primary font-bold block">प्रेसिडेंशियल</span>
+<span class="font-label-sm text-label-sm text-on-surface-variant">अत्याधुनिक सुइट्स</span>
+</div>
+<div class="bg-surface-container-low p-space-sm rounded-lg text-center">
+<span class="font-headline-sm text-headline-sm text-primary font-bold block">डीलक्स रूम</span>
+<span class="font-label-sm text-label-sm text-on-surface-variant">व्यक्तिगत परिचर्या</span>
+</div>
+<div class="bg-surface-container-low p-space-sm rounded-lg text-center">
+<span class="font-headline-sm text-headline-sm text-primary font-bold block">ट्विन शेयरिंग</span>
+<span class="font-label-sm text-label-sm text-on-surface-variant">किफायती व स्वच्छ</span>
+</div>
+<div class="bg-surface-container-low p-space-sm rounded-lg text-center">
+<span class="font-headline-sm text-headline-sm text-primary font-bold block">जनरल वार्ड</span>
+<span class="font-label-sm text-label-sm text-on-surface-variant">24x7 नर्स केयर</span>
+</div>
+</div>
+</div>
+<!-- Facility 6: Robotic Pharmacy & Blood Bank -->
+<div class="bg-surface-container-lowest rounded-xl shadow-sm p-space-lg flex flex-col justify-between">
+<div>
+<div class="w-12 h-12 rounded-xl bg-surface-container flex items-center justify-center text-primary mb-space-md">
+<span class="material-symbols-outlined text-[28px]">bloodtype</span>
+</div>
+<span class="font-label-sm text-label-sm text-secondary font-bold uppercase">सतत आपूर्ति</span>
+<h3 class="font-headline-md text-headline-md text-primary font-bold mt-1">
+            रोबोटिक फार्मेसी व ब्लड सेंटर
+          </h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant mt-space-xs">
+            स्मार्ट रोबोटिक डिस्पेंसिंग फार्मेसी और कंपोनेंट सेपरेशन युक्त आधुनिक ब्लड सेंटर।
+          </p>
+</div>
+<div class="mt-space-md pt-space-xs">
+<div class="flex items-center gap-space-xs text-label-sm text-on-surface-variant">
+<span class="material-symbols-outlined text-[18px] text-secondary">verified</span>
+<span>100% सटीक औषधि वितरण</span>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- Visual Hospital Environment Showcase Banner -->
+<section class="max-w-[1280px] w-full mx-auto px-gutter-lg pb-space-xl">
+<div class="bg-primary text-on-primary rounded-xl overflow-hidden shadow-md">
+<div class="grid grid-cols-1 lg:grid-cols-12 items-center">
+<div class="lg:col-span-7 p-space-lg md:p-margin flex flex-col gap-space-md">
+<div class="inline-flex items-center gap-space-xs bg-surface-container-lowest/10 px-space-sm py-1 rounded w-fit text-secondary-fixed text-label-sm font-label-sm">
+<span class="material-symbols-outlined text-[16px]">health_and_safety</span>
+<span>रोगी केंद्रित देखभाल मानक</span>
+</div>
+<h2 class="font-headline-xl text-headline-xl text-on-primary font-bold leading-tight">
+            क्या आप किसी विशिष्ट विभाग या डॉक्टर से परामर्श चाहते हैं?
+          </h2>
+<p class="font-body-md text-body-md text-on-primary-container leading-relaxed">
+            हमारे विशेष परामर्शदाता और ओपीडी समन्वयक सही विशेषज्ञ और सही समय चुनने में आपकी तुरंत सहायता करते हैं। ऑनलाइन अथवा काउंटर पर दोनों विकल्प उपलब्ध हैं।
+          </p>
+<div class="flex flex-wrap items-center gap-space-md pt-space-xs">
+<a class="inline-flex items-center gap-space-xs bg-secondary text-on-secondary hover:bg-on-secondary-container px-space-lg py-space-sm rounded-lg font-label-lg text-label-lg shadow-sm transition-all min-h-[48px]" href="#">
+<span class="material-symbols-outlined text-[20px]">calendar_add_on</span>
+<span>ऑनलाइन अपॉइंटमेंट लें</span>
+</a>
+<a class="inline-flex items-center gap-space-xs bg-surface-container-lowest/10 text-on-primary hover:bg-surface-container-lowest/20 px-space-lg py-space-sm rounded-lg font-label-lg text-label-lg transition-all min-h-[48px]" href="#">
+<span class="material-symbols-outlined text-[20px]">phone_in_talk</span>
+<span>ओपीडी हेल्पलाइन: +91 129 285 6000</span>
+</a>
+</div>
+</div>
+<div class="lg:col-span-5 relative h-64 lg:h-full min-h-[280px]">
+<img class="w-full h-full object-cover" data-alt="Panoramic architectural view of Amrita Hospital Faridabad campus showing landscaped healing gardens, glass facade building architecture under bright warm daylight." src="https://lh3.googleusercontent.com/aida-public/AB6AXuDCbwJ10Pk7sSPz24hLIegflNir1HF53DdJ8O8Ry4p8cztRnnTENSfmanvgoz4cH2AFch9Jki99ENaZbwO9IYzUSsLOmAd1IaDiQnayhXYScf7vt22WJqvOwAbQLVFUEIX5hLxJ8NQxFfpL2spRBqZ1hjp9Y8xGj2n1kVg09jKBttx6O4Tf-r1vu8WHGUhoMSbwty1qV7unrP98WK7M7CLYsaqjrlWH4BD_83SE2-AtYw7CDQFPa6lR"/>
+<div class="absolute inset-0 bg-gradient-to-t lg:bg-gradient-to-r from-primary via-primary/30 to-transparent"></div>
+</div>
+</div>
+</div>
+</section>
+<!-- Interactive JavaScript Filter Logic -->
+<script>
+    function filterDept(category) {
+      const cards = document.querySelectorAll('.dept-card');
+      const buttons = document.querySelectorAll('.dept-btn');
+
+      // Update button styles
+      buttons.forEach(btn => {
+        btn.classList.remove('bg-primary', 'text-on-primary');
+        btn.classList.add('bg-surface-container', 'text-on-surface-variant');
+      });
+
+      const activeBtn = document.getElementById('btn-' + category);
+      if (activeBtn) {
+        activeBtn.classList.remove('bg-surface-container', 'text-on-surface-variant');
+        activeBtn.classList.add('bg-primary', 'text-on-primary');
+      }
+
+      // Filter cards
+      cards.forEach(card => {
+        const catList = card.getAttribute('data-category') || '';
+        if (category === 'all' || catList.includes(category)) {
+          card.classList.remove('hidden');
+        } else {
+          card.classList.add('hidden');
+        }
+      });
+    }
+  </script>
+</div></main><footer class="w-full bg-primary text-on-primary mt-space-xl"><div class="bg-primary-container text-on-primary py-space-md px-gutter-lg shadow-[0_1px_8px_rgba(15,43,72,0.1)]"><div class="max-w-[1280px] mx-auto flex flex-wrap items-center justify-between gap-space-md"><div class="flex items-center gap-space-md"><span class="font-label-lg text-label-lg text-secondary-fixed font-bold tracking-wide">राष्ट्रीय व अंतर्राष्ट्रीय मान्यताएं:</span><div class="flex items-center gap-space-sm"><span class="bg-surface-container-lowest/10 px-space-sm py-space-xs rounded font-label-sm text-label-sm text-on-primary">NABH Certified</span><span class="bg-surface-container-lowest/10 px-space-sm py-space-xs rounded font-label-sm text-label-sm text-on-primary">JCI Accredited</span><span class="bg-surface-container-lowest/10 px-space-sm py-space-xs rounded font-label-sm text-label-sm text-on-primary">NABL Lab</span><span class="bg-surface-container-lowest/10 px-space-sm py-space-xs rounded font-label-sm text-label-sm text-on-primary">ISO 9001:2015</span></div></div><div class="flex items-center gap-space-lg text-label-md font-label-md"><div class="flex items-center gap-space-xs"><span class="material-symbols-outlined text-secondary-fixed text-[18px]">support_agent</span><span>24x7 सहायता: +91 129 285 6000</span></div><div class="flex items-center gap-space-xs text-error-container"><span class="material-symbols-outlined text-[18px]">e911_emergency</span><span>इमरजेंसी: 1800-200-5555</span></div></div></div></div><div class="max-w-[1280px] mx-auto px-gutter-lg py-margin-lg"><div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-gutter-lg"><div class="flex flex-col gap-space-md"><div class="flex items-center gap-space-sm"><span class="font-headline-sm text-headline-sm text-on-primary font-bold">अमृता हॉस्पिटल</span></div><p class="font-body-sm text-body-sm text-on-primary-container leading-relaxed">माता अमृतानंदमयी देवी (अम्मा) के सेवा संकल्प और करुणा पर आधारित भारत का अग्रणी सुपर-स्पेशियलिटी शिक्षण अस्पताल एवं शोध संस्थान।</p><div class="flex flex-col gap-space-xs font-body-sm text-body-sm text-on-primary-container pt-space-xs"><div class="flex items-start gap-space-xs"><span class="material-symbols-outlined text-[18px] text-secondary-fixed shrink-0 mt-0.5">pin_drop</span><span>माता अमृतानंदमयी मार्ग, सेक्टर 88, ग्रेटर फरीदाबाद, हरियाणा 121002</span></div><div class="flex items-center gap-space-xs"><span class="material-symbols-outlined text-[18px] text-secondary-fixed shrink-0">mail</span><span>info@amritahospital.org</span></div></div></div><div class="flex flex-col gap-space-sm"><h3 class="font-headline-sm text-headline-sm text-on-primary font-semibold mb-space-xs">प्रमुख चिकित्सा विभाग</h3><ul class="flex flex-col gap-space-xs font-body-sm text-body-sm text-on-primary-container"><li class="hover:text-secondary-fixed transition-colors cursor-pointer">हृदय रोग संस्थान (Cardiology)</li><li class="hover:text-secondary-fixed transition-colors cursor-pointer">कैंसर देखभाल केंद्र (Oncology)</li><li class="hover:text-secondary-fixed transition-colors cursor-pointer">मस्तिष्क एवं स्नायु रोग (Neurosciences)</li><li class="hover:text-secondary-fixed transition-colors cursor-pointer">अंग प्रत्यारोपण (Organ Transplant)</li><li class="hover:text-secondary-fixed transition-colors cursor-pointer">हड्डी एवं जोड़ रोग (Orthopaedics)</li><li class="hover:text-secondary-fixed transition-colors cursor-pointer">बाल रोग एवं नवजात गहन चिकित्सा (Pediatrics)</li></ul></div><div class="flex flex-col gap-space-sm"><h3 class="font-headline-sm text-headline-sm text-on-primary font-semibold mb-space-xs">त्वरित सेवाएं एवं पैकेज</h3><ul class="flex flex-col gap-space-xs font-body-sm text-body-sm text-on-primary-container"><li class="hover:text-secondary-fixed transition-colors cursor-pointer">ऑनलाइन ओपीडी परामर्श (Tele-OPD)</li><li class="hover:text-secondary-fixed transition-colors cursor-pointer">समग्र स्वास्थ्य जांच (Executive Health Check)</li><li class="hover:text-secondary-fixed transition-colors cursor-pointer">लैब रिपोर्ट ऑनलाइन डाउनलोड</li><li class="hover:text-secondary-fixed transition-colors cursor-pointer">कैशलेस बीमा व TPA सहायता डेस्क</li><li class="hover:text-secondary-fixed transition-colors cursor-pointer">ब्लड बैंक व डायलिसिस सेवाएं</li><li class="hover:text-secondary-fixed transition-colors cursor-pointer">अंतर्राष्ट्रीय मरीज डेस्क (International Desk)</li></ul></div><div class="flex flex-col gap-space-sm"><h3 class="font-headline-sm text-headline-sm text-on-primary font-semibold mb-space-xs">मरीज एवं तीमारदार सूचना</h3><ul class="flex flex-col gap-space-xs font-body-sm text-body-sm text-on-primary-container"><li class="hover:text-secondary-fixed transition-colors cursor-pointer">भर्ती एवं डिस्चार्ज प्रक्रिया</li><li class="hover:text-secondary-fixed transition-colors cursor-pointer">आगंतुक नियम एवं समय सारिणी</li><li class="hover:text-secondary-fixed transition-colors cursor-pointer">हॉस्पिटल परिसर मानचित्र व पार्किंग</li><li class="hover:text-secondary-fixed transition-colors cursor-pointer">मरीज अधिकार एवं कर्तव्य</li><li class="hover:text-secondary-fixed transition-colors cursor-pointer">प्रतिक्रिया एवं शिकायत निवारण</li></ul><div class="pt-space-sm"><span class="font-label-sm text-label-sm text-secondary-fixed uppercase tracking-wider block mb-space-xs">आपातकालीन संपर्क</span><span class="font-headline-sm text-headline-sm text-error-container font-bold">1800-200-5555</span></div></div></div><div class="mt-space-xl pt-space-lg flex flex-col md:flex-row items-center justify-between text-label-sm font-label-sm text-on-primary-container gap-space-md"><p>© 2024 अमृता हॉस्पिटल (Amrita Hospital). सर्वाधिकार सुरक्षित। All Rights Reserved.</p><div class="flex items-center gap-space-lg flex-wrap"><a class="hover:text-on-primary transition-colors" href="#">गोपनीयता नीति (Privacy Policy)</a><a class="hover:text-on-primary transition-colors" href="#">उपयोग की शर्तें (Terms of Use)</a><a class="hover:text-on-primary transition-colors" href="#">क्लिनिकल गवर्नेंस</a><a class="hover:text-on-primary transition-colors" href="#">साइटमैप</a></div></div></div></footer></body></html>
